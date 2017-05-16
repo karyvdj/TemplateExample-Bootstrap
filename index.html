@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/panda-icon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/download.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header class="container">
-      <nav class="navbar navbar-inverse navbar-fixed-top row">
-        <div class="navbar-header col-md-2 col-md-offset-1">
+    <header class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="container">
+        <div class="navbar-header">
           <a href="#" class="navbar-brand">Bootstrap them</a>
         </div>
         <div class="navbar-collapse collapse" aria-expanded="false">
@@ -39,6 +39,196 @@
         </div>
       </nav>
     </header>
+
+    <article class="container" role="main">
+      <div class="jumbotron">
+        <h1>Theme example</h1>
+        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap.
+           Use it as a starting point to create something more unique by building on or modifying it.
+        </p>
+      </div>
+      
+      </section class="row">
+        <div class="page-header">
+          <h1>Buttons</h1>
+        </div>
+        <div class="botones">
+          <button type="button" class="btn btn-lg btn-default">Default</button>
+          <button type="button" class="btn btn-lg btn-primary">Primary</button>
+          <button type="button" class="btn btn-lg btn-success">Success</button>
+          <button type="button" class="btn btn-lg btn-info">Info</button>
+          <button type="button" class="btn btn-lg btn-warning">Warning</button>
+          <button type="button" class="btn btn-lg btn-danger">Danger</button>
+          <button type="button" class="btn btn-lg btn-link">Link</button>
+        </div>
+        <div class="botones">
+          <button type="button" class="btn btn-default">Default</button>
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-link">Link</button>
+        </div>
+        <div class="botones">
+          <button type="button" class="btn btn-sm btn-default">Default</button>
+          <button type="button" class="btn btn-sm btn-primary">Primary</button>
+          <button type="button" class="btn btn-sm btn-success">Success</button>
+          <button type="button" class="btn btn-sm btn-info">Info</button>
+          <button type="button" class="btn btn-sm btn-warning">Warning</button>
+          <button type="button" class="btn btn-sm btn-danger">Danger</button>
+          <button type="button" class="btn btn-sm btn-link">Link</button>
+        </div>
+        <div class="botones">
+          <button type="button" class="btn btn-xs btn-default">Default</button>
+          <button type="button" class="btn btn-xs btn-primary">Primary</button>
+          <button type="button" class="btn btn-xs btn-success">Success</button>
+          <button type="button" class="btn btn-xs btn-info">Info</button>
+          <button type="button" class="btn btn-xs btn-warning">Warning</button>
+          <button type="button" class="btn btn-xs btn-danger">Danger</button>
+          <button type="button" class="btn btn-xs btn-link">Link</button>
+        </div>
+      <section>
+
+      <section>
+        <div class="page-header">
+          <h1>Tables</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Usename</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <th>Mark</th>
+                  <th>Otto</th>
+                  <th>@mdo</th>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <th>Jacob</th>
+                  <th>Thornton</th>
+                  <th>@fat</th>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <th>Larry</th>
+                  <th>the Bird</th>
+                  <th>@twitter</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Usename</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <th>Mark</th>
+                  <th>Otto</th>
+                  <th>@mdo</th>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <th>Jacob</th>
+                  <th>Thornton</th>
+                  <th>@fat</th>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <th>Larry</th>
+                  <th>the Bird</th>
+                  <th>@twitter</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Usename</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th rowspan="2">1</th>
+                  <th>Mark</th>
+                  <th>Otto</th>
+                  <th>@mdo</th>
+                </tr>
+                <tr>
+                  <th>Mark</th>
+                  <th>Otto</th>
+                  <th>@TwBootstrap</th>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <th>Jacob</th>
+                  <th>Thornton</th>
+                  <th>@fat</th>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <th colspan="2">Larry the Bird</th>
+                  <th>@twitter</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <table class="table table-condensed ">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Usename</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <th>Mark</th>
+                  <th>Otto</th>
+                  <th>@mdo</th>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <th>Jacob</th>
+                  <th>Thornton</th>
+                  <th>@fat</th>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <th colspan="2">Larry the Bird</th>
+                  <th>@twitter</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </article>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
